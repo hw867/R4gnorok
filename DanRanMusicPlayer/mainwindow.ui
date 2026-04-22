@@ -1,0 +1,3359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1262</width>
+    <height>913</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QStackedWidget" name="stackedWidget_mian">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1291</width>
+      <height>1000</height>
+     </rect>
+    </property>
+    <widget class="QWidget" name="homePage">
+     <widget class="QWidget" name="widget_right" native="true">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>100</y>
+        <width>1071</width>
+        <height>671</height>
+       </rect>
+      </property>
+      <property name="mouseTracking">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+      <widget class="QStackedWidget" name="stackedWidget_banner">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>70</y>
+         <width>951</width>
+         <height>301</height>
+        </rect>
+       </property>
+       <property name="currentIndex">
+        <number>0</number>
+       </property>
+       <widget class="QWidget" name="page_11">
+        <widget class="QLabel" name="label_27">
+         <property name="geometry">
+          <rect>
+           <x>-20</x>
+           <y>0</y>
+           <width>981</width>
+           <height>301</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="images.qrc">:/picturewall/images/picturewall/1.png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="page_12">
+        <widget class="QLabel" name="label_28">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>0</y>
+           <width>951</width>
+           <height>301</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="images.qrc">:/picturewall/images/picturewall/10.png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="page_13">
+        <widget class="QLabel" name="label_29">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>0</y>
+           <width>951</width>
+           <height>301</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="images.qrc">:/picturewall/images/picturewall/2.png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="page_14">
+        <widget class="QLabel" name="label_30">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>0</y>
+           <width>951</width>
+           <height>301</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="images.qrc">:/picturewall/images/picturewall/3.png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="page_15">
+        <widget class="QLabel" name="label_31">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>0</y>
+           <width>951</width>
+           <height>301</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="images.qrc">:/picturewall/images/picturewall/4.png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="page_16">
+        <widget class="QLabel" name="label_32">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>0</y>
+           <width>951</width>
+           <height>301</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="images.qrc">:/picturewall/images/picturewall/5.png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="page_17">
+        <widget class="QLabel" name="label_33">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>0</y>
+           <width>951</width>
+           <height>301</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="images.qrc">:/picturewall/images/picturewall/6.png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="page_18">
+        <widget class="QLabel" name="label_34">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>0</y>
+           <width>951</width>
+           <height>301</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="images.qrc">:/picturewall/images/picturewall/7.png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QPushButton" name="pushButton_23">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>0</y>
+         <width>121</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>楷体</family>
+         <pointsize>-1</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-family:  &quot;楷体&quot;;
+    font-size: 23px;
+    color: #333;
+}
+QPushButton:hover {
+    background-color: #abc;
+    color: white;
+}
+QPushButton:pressed {
+    background-color: #d95b3e;
+    padding-top: 9px;
+    padding-bottom: 7px;
+}</string>
+       </property>
+       <property name="text">
+        <string>个性推荐</string>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_38">
+       <property name="geometry">
+        <rect>
+         <x>150</x>
+         <y>0</y>
+         <width>121</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>楷体</family>
+         <pointsize>-1</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-family:  &quot;楷体&quot;;
+    font-size: 23px;
+    color: #333;
+}
+QPushButton:hover {
+    background-color: #abc;
+    color: white;
+}
+QPushButton:pressed {
+    background-color: #d95b3e;
+    padding-top: 9px;
+    padding-bottom: 7px;
+}</string>
+       </property>
+       <property name="text">
+        <string>歌单</string>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_39">
+       <property name="geometry">
+        <rect>
+         <x>260</x>
+         <y>0</y>
+         <width>121</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>楷体</family>
+         <pointsize>-1</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-family:  &quot;楷体&quot;;
+    font-size: 23px;
+    color: #333;
+}
+QPushButton:hover {
+    background-color: #abc;
+    color: white;
+}
+QPushButton:pressed {
+    background-color: #d95b3e;
+    padding-top: 9px;
+    padding-bottom: 7px;
+}</string>
+       </property>
+       <property name="text">
+        <string>主播电台</string>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_40">
+       <property name="geometry">
+        <rect>
+         <x>370</x>
+         <y>0</y>
+         <width>121</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>楷体</family>
+         <pointsize>-1</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-family:  &quot;楷体&quot;;
+    font-size: 23px;
+    color: #333;
+}
+QPushButton:hover {
+    background-color: #abc;
+    color: white;
+}
+QPushButton:pressed {
+    background-color: #d95b3e;
+    padding-top: 9px;
+    padding-bottom: 7px;
+}</string>
+       </property>
+       <property name="text">
+        <string>排行榜</string>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_41">
+       <property name="geometry">
+        <rect>
+         <x>480</x>
+         <y>0</y>
+         <width>121</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>楷体</family>
+         <pointsize>-1</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-family:  &quot;楷体&quot;;
+    font-size: 23px;
+    color: #333;
+}
+QPushButton:hover {
+    background-color: #abc;
+    color: white;
+}
+QPushButton:pressed {
+    background-color: #d95b3e;
+    padding-top: 9px;
+    padding-bottom: 7px;
+}</string>
+       </property>
+       <property name="text">
+        <string>歌手</string>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_42">
+       <property name="geometry">
+        <rect>
+         <x>590</x>
+         <y>0</y>
+         <width>121</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>楷体</family>
+         <pointsize>-1</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-family:  &quot;楷体&quot;;
+    font-size: 23px;
+    color: #333;
+}
+QPushButton:hover {
+    background-color: #abc;
+    color: white;
+}
+QPushButton:pressed {
+    background-color: #d95b3e;
+    padding-top: 9px;
+    padding-bottom: 7px;
+}</string>
+       </property>
+       <property name="text">
+        <string>最新音乐</string>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_43">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>450</y>
+         <width>171</width>
+         <height>161</height>
+        </rect>
+       </property>
+       <property name="mouseTracking">
+        <bool>false</bool>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    background-color: transparent;
+    border: none;
+    border-radius: 8px;
+}
+QPushButton:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 2px solid #ff7e5e;
+    border-radius: 12px;
+}
+QPushButton:pressed {
+    background-color: rgba(0, 0, 0, 0.2);
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="images.qrc">
+         <normaloff>:/listWidget/images/listWidget/Personal_Recommendmusic1.png</normaloff>:/listWidget/images/listWidget/Personal_Recommendmusic1.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>290</width>
+         <height>290</height>
+        </size>
+       </property>
+       <property name="checkable">
+        <bool>false</bool>
+       </property>
+       <property name="autoRepeat">
+        <bool>false</bool>
+       </property>
+       <property name="autoExclusive">
+        <bool>false</bool>
+       </property>
+       <property name="autoDefault">
+        <bool>false</bool>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_35">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>400</y>
+         <width>121</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>14</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>推荐歌单</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_36">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>610</y>
+         <width>111</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>每日推荐</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_37">
+       <property name="geometry">
+        <rect>
+         <x>280</x>
+         <y>610</y>
+         <width>111</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>每日推荐</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_38">
+       <property name="geometry">
+        <rect>
+         <x>470</x>
+         <y>610</y>
+         <width>111</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>每日推荐</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_39">
+       <property name="geometry">
+        <rect>
+         <x>690</x>
+         <y>610</y>
+         <width>111</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>每日推荐</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_40">
+       <property name="geometry">
+        <rect>
+         <x>880</x>
+         <y>610</y>
+         <width>111</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>每日推荐</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_44">
+       <property name="geometry">
+        <rect>
+         <x>240</x>
+         <y>450</y>
+         <width>171</width>
+         <height>161</height>
+        </rect>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="images.qrc">
+         <normaloff>:/listWidget/images/listWidget/Personal_Recommendmusic2.png</normaloff>:/listWidget/images/listWidget/Personal_Recommendmusic2.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>290</width>
+         <height>290</height>
+        </size>
+       </property>
+       <property name="checkable">
+        <bool>false</bool>
+       </property>
+       <property name="autoRepeat">
+        <bool>false</bool>
+       </property>
+       <property name="autoExclusive">
+        <bool>false</bool>
+       </property>
+       <property name="autoDefault">
+        <bool>false</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_45">
+       <property name="geometry">
+        <rect>
+         <x>440</x>
+         <y>450</y>
+         <width>171</width>
+         <height>161</height>
+        </rect>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="images.qrc">
+         <normaloff>:/listWidget/images/listWidget/Personal_Recommendmusic3.png</normaloff>:/listWidget/images/listWidget/Personal_Recommendmusic3.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>290</width>
+         <height>290</height>
+        </size>
+       </property>
+       <property name="checkable">
+        <bool>false</bool>
+       </property>
+       <property name="autoRepeat">
+        <bool>false</bool>
+       </property>
+       <property name="autoExclusive">
+        <bool>false</bool>
+       </property>
+       <property name="autoDefault">
+        <bool>false</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_46">
+       <property name="geometry">
+        <rect>
+         <x>640</x>
+         <y>450</y>
+         <width>171</width>
+         <height>161</height>
+        </rect>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="images.qrc">
+         <normaloff>:/listWidget/images/listWidget/Personal_Recommendmusic4.png</normaloff>:/listWidget/images/listWidget/Personal_Recommendmusic4.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>290</width>
+         <height>290</height>
+        </size>
+       </property>
+       <property name="checkable">
+        <bool>false</bool>
+       </property>
+       <property name="autoRepeat">
+        <bool>false</bool>
+       </property>
+       <property name="autoExclusive">
+        <bool>false</bool>
+       </property>
+       <property name="autoDefault">
+        <bool>false</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_47">
+       <property name="geometry">
+        <rect>
+         <x>830</x>
+         <y>450</y>
+         <width>171</width>
+         <height>161</height>
+        </rect>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="images.qrc">
+         <normaloff>:/listWidget/images/listWidget/Personal_Recommendmusic5.png</normaloff>:/listWidget/images/listWidget/Personal_Recommendmusic5.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>290</width>
+         <height>290</height>
+        </size>
+       </property>
+       <property name="checkable">
+        <bool>false</bool>
+       </property>
+       <property name="autoRepeat">
+        <bool>false</bool>
+       </property>
+       <property name="autoExclusive">
+        <bool>false</bool>
+       </property>
+       <property name="autoDefault">
+        <bool>false</bool>
+       </property>
+      </widget>
+      <widget class="QWidget" name="widget_dot" native="true">
+       <property name="geometry">
+        <rect>
+         <x>440</x>
+         <y>380</y>
+         <width>181</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <widget class="QLabel" name="dot_1">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>10</y>
+          <width>21</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel {
+    border-radius: 30px;
+    border: none;
+    background-color: transparent;
+    qproperty-scaledContents: true;
+}
+QLabel:hover {
+    background-color: rgba(0, 0, 0, 0.1); /* 鼠标悬浮时加半透明遮罩 */
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="dot_2">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>10</y>
+          <width>21</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel {
+    border-radius: 30px;
+    border: none;
+    background-color: transparent;
+    qproperty-scaledContents: true;
+}
+QLabel:hover {
+    background-color: rgba(0, 0, 0, 0.1); /* 鼠标悬浮时加半透明遮罩 */
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="dot_3">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>10</y>
+          <width>21</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel {
+    border-radius: 30px;
+    border: none;
+    background-color: transparent;
+    qproperty-scaledContents: true;
+}
+QLabel:hover {
+    background-color: rgba(0, 0, 0, 0.1); /* 鼠标悬浮时加半透明遮罩 */
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="dot_4">
+        <property name="geometry">
+         <rect>
+          <x>60</x>
+          <y>10</y>
+          <width>21</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel {
+    border-radius: 30px;
+    border: none;
+    background-color: transparent;
+    qproperty-scaledContents: true;
+}
+QLabel:hover {
+    background-color: rgba(0, 0, 0, 0.1); /* 鼠标悬浮时加半透明遮罩 */
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="dot_5">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>10</y>
+          <width>21</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel {
+    border-radius: 30px;
+    border: none;
+    background-color: transparent;
+    qproperty-scaledContents: true;
+}
+QLabel:hover {
+    background-color: rgba(0, 0, 0, 0.1); /* 鼠标悬浮时加半透明遮罩 */
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="dot_6">
+        <property name="geometry">
+         <rect>
+          <x>100</x>
+          <y>10</y>
+          <width>21</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel {
+    border-radius: 30px;
+    border: none;
+    background-color: transparent;
+    qproperty-scaledContents: true;
+}
+QLabel:hover {
+    background-color: rgba(0, 0, 0, 0.1); /* 鼠标悬浮时加半透明遮罩 */
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="dot_7">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>10</y>
+          <width>21</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel {
+    border-radius: 30px;
+    border: none;
+    background-color: transparent;
+    qproperty-scaledContents: true;
+}
+QLabel:hover {
+    background-color: rgba(0, 0, 0, 0.1); /* 鼠标悬浮时加半透明遮罩 */
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="dot_8">
+        <property name="geometry">
+         <rect>
+          <x>140</x>
+          <y>10</y>
+          <width>21</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel {
+    border-radius: 30px;
+    border: none;
+    background-color: transparent;
+    qproperty-scaledContents: true;
+}
+QLabel:hover {
+    background-color: rgba(0, 0, 0, 0.1); /* 鼠标悬浮时加半透明遮罩 */
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QPushButton" name="pb_next">
+       <property name="geometry">
+        <rect>
+         <x>990</x>
+         <y>200</y>
+         <width>48</width>
+         <height>48</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    min-width: 48px;
+    min-height: 48px;
+    max-width: 48px;
+    max-height: 48px;
+    icon-size: 36px 36px;
+    border: none;
+    background-color: transparent;
+    border-radius: 24px; /* 圆形，半径=宽高的一半 */
+}
+QPushButton:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="images.qrc">
+         <normaloff>:/navigation/images/navigation/btn_front.png</normaloff>:/navigation/images/navigation/btn_front.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>40</width>
+         <height>40</height>
+        </size>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pb_prev">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>200</y>
+         <width>48</width>
+         <height>48</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    min-width: 48px;
+    min-height: 48px;
+    max-width: 48px;
+    max-height: 48px;
+    icon-size: 36px 36px;
+    border: none;
+    background-color: transparent;
+    border-radius: 24px; /* 圆形，半径=宽高的一半 */
+}
+QPushButton:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="images.qrc">
+         <normaloff>:/navigation/images/navigation/btn_back.png</normaloff>:/navigation/images/navigation/btn_back.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>40</width>
+         <height>40</height>
+        </size>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="onlinePage">
+     <widget class="QTableWidget" name="table_onlineMusicList">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>150</y>
+        <width>891</width>
+        <height>521</height>
+       </rect>
+      </property>
+      <property name="editTriggers">
+       <set>QAbstractItemView::NoEditTriggers</set>
+      </property>
+      <property name="selectionMode">
+       <enum>QAbstractItemView::SingleSelection</enum>
+      </property>
+      <property name="selectionBehavior">
+       <enum>QAbstractItemView::SelectRows</enum>
+      </property>
+      <attribute name="horizontalHeaderDefaultSectionSize">
+       <number>210</number>
+      </attribute>
+      <column>
+       <property name="text">
+        <string>歌手</string>
+       </property>
+       <property name="font">
+        <font>
+         <family>楷体</family>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>歌曲</string>
+       </property>
+       <property name="font">
+        <font>
+         <family>楷体</family>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>专辑</string>
+       </property>
+       <property name="font">
+        <font>
+         <family>楷体</family>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>时长</string>
+       </property>
+       <property name="font">
+        <font>
+         <family>楷体</family>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+      </column>
+     </widget>
+     <widget class="QPushButton" name="pb_onlinePrevPage">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>690</y>
+        <width>93</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>楷体</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>上一页</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pb_onlineNextPage">
+      <property name="geometry">
+       <rect>
+        <x>1000</x>
+        <y>690</y>
+        <width>93</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>楷体</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>下一页</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="lb_onlinePageInfo">
+      <property name="geometry">
+       <rect>
+        <x>630</x>
+        <y>690</y>
+        <width>201</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>楷体</family>
+       </font>
+      </property>
+      <property name="text">
+       <string>页数/总数</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="lb_onlineTotalCount">
+      <property name="geometry">
+       <rect>
+        <x>310</x>
+        <y>730</y>
+        <width>181</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>楷体</family>
+       </font>
+      </property>
+      <property name="text">
+       <string>共有几首</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="lyricsPage">
+     <widget class="QWidget" name="widget_4" native="true">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1261</width>
+        <height>771</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(170, 187, 204);</string>
+      </property>
+      <widget class="QLabel" name="label">
+       <property name="geometry">
+        <rect>
+         <x>60</x>
+         <y>200</y>
+         <width>391</width>
+         <height>371</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="images.qrc">:/music_play/images/music_play/cd.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="lb_record">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>260</y>
+         <width>270</width>
+         <height>270</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">#lb_record {
+    background-color: transparent;
+    border: none;
+    border-radius: 135px;   /* 半径 = 宽度的一半，要求控件是正方形且边长为270px */
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="images.qrc">:/music_play/images/music_play/heijiaopian1.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="lb_stylus">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>90</y>
+         <width>221</width>
+         <height>181</height>
+        </rect>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background: transparent;
+border: none;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="images.qrc">:/music_play/images/music_play/bofanggan.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_91">
+       <property name="geometry">
+        <rect>
+         <x>150</x>
+         <y>600</y>
+         <width>81</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="images.qrc">
+         <normaloff>:/listWidget/images/listWidget/btn_download.png</normaloff>:/listWidget/images/listWidget/btn_download.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_92">
+       <property name="geometry">
+        <rect>
+         <x>250</x>
+         <y>600</y>
+         <width>51</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="images.qrc">
+         <normaloff>:/stackWidget/images/stackWidget/localMusic/btn_share.png</normaloff>:/stackWidget/images/stackWidget/localMusic/btn_share.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pb_return">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>60</y>
+         <width>51</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    background-color: transparent;
+    border: none;
+}
+QPushButton:hover {
+    background-color: #E0E0E0; /* 浅灰，接近白色，不突兀 */
+    border-radius: 4px;
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="images.qrc">
+         <normaloff>:/listWidget/images/listWidget/comeback.png</normaloff>:/listWidget/images/listWidget/comeback.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>40</width>
+         <height>40</height>
+        </size>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QListWidget" name="lw_lrcShow">
+       <property name="geometry">
+        <rect>
+         <x>550</x>
+         <y>190</y>
+         <width>621</width>
+         <height>491</height>
+        </rect>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::NoFrame</enum>
+       </property>
+       <property name="verticalScrollBarPolicy">
+        <enum>Qt::ScrollBarAlwaysOff</enum>
+       </property>
+       <property name="horizontalScrollBarPolicy">
+        <enum>Qt::ScrollBarAlwaysOff</enum>
+       </property>
+       <property name="selectionMode">
+        <enum>QAbstractItemView::NoSelection</enum>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="localMusic">
+     <widget class="QPushButton" name="pb_selectFolder">
+      <property name="geometry">
+       <rect>
+        <x>1080</x>
+        <y>150</y>
+        <width>121</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>楷体</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>选择文件夹</string>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pb_playAll">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>180</y>
+        <width>121</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>楷体</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+
+    color: black;
+    border-radius: 20px;
+
+}
+QPushButton:hover {
+    background-color: #ff9678;
+}
+QPushButton:pressed {
+    background-color: #d95b3e;
+}</string>
+      </property>
+      <property name="text">
+       <string>全部播放</string>
+      </property>
+      <property name="icon">
+       <iconset resource="images.qrc">
+        <normaloff>:/playWidget/images/playWidget/play.png</normaloff>:/playWidget/images/playWidget/play.png</iconset>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="lb_localMusic">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>120</y>
+        <width>141</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>楷体</family>
+        <pointsize>19</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>本地音乐</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="lb_songCount">
+      <property name="geometry">
+       <rect>
+        <x>380</x>
+        <y>150</y>
+        <width>121</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>楷体</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>共有几首</string>
+      </property>
+     </widget>
+     <widget class="QTableWidget" name="table_musicList">
+      <property name="geometry">
+       <rect>
+        <x>250</x>
+        <y>230</y>
+        <width>951</width>
+        <height>521</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QTableWidget {
+    background-color: white;
+    gridline-color: #e0e0e0;
+    font-family: &quot;楷体&quot;;
+    font-size: 20px;
+    outline: 0;
+    /* 关键：去掉单元格间距 */
+    border: none;
+}
+
+/* 选中行效果（配合 setSelectionBehavior(SelectRows)） */
+QTableWidget::item:selected {
+    background-color: #dddfff;
+    color: black;
+}</string>
+      </property>
+      <property name="editTriggers">
+       <set>QAbstractItemView::NoEditTriggers</set>
+      </property>
+      <property name="selectionBehavior">
+       <enum>QAbstractItemView::SelectRows</enum>
+      </property>
+      <attribute name="horizontalHeaderVisible">
+       <bool>false</bool>
+      </attribute>
+      <attribute name="horizontalHeaderCascadingSectionResizes">
+       <bool>false</bool>
+      </attribute>
+      <attribute name="horizontalHeaderMinimumSectionSize">
+       <number>235</number>
+      </attribute>
+      <attribute name="horizontalHeaderDefaultSectionSize">
+       <number>235</number>
+      </attribute>
+      <attribute name="horizontalHeaderHighlightSections">
+       <bool>true</bool>
+      </attribute>
+      <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+       <bool>false</bool>
+      </attribute>
+      <attribute name="horizontalHeaderStretchLastSection">
+       <bool>false</bool>
+      </attribute>
+      <attribute name="verticalHeaderVisible">
+       <bool>false</bool>
+      </attribute>
+      <attribute name="verticalHeaderHighlightSections">
+       <bool>true</bool>
+      </attribute>
+      <attribute name="verticalHeaderShowSortIndicator" stdset="0">
+       <bool>false</bool>
+      </attribute>
+      <column>
+       <property name="text">
+        <string>标题</string>
+       </property>
+       <property name="font">
+        <font>
+         <family>楷体</family>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>歌手</string>
+       </property>
+       <property name="font">
+        <font>
+         <family>楷体</family>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>专辑</string>
+       </property>
+       <property name="font">
+        <font>
+         <family>楷体</family>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>时长</string>
+       </property>
+       <property name="font">
+        <font>
+         <family>楷体</family>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+      </column>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="loveMusicPage">
+     <widget class="QLabel" name="lb_lovePic">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>130</y>
+        <width>171</width>
+        <height>151</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="images.qrc">:/listWidget/images/listWidget/love_music.jpg</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>460</x>
+        <y>140</y>
+        <width>181</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>楷体</family>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>我喜欢的音乐</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pb_playAll_2">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>250</y>
+        <width>121</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>楷体</family>
+        <pointsize>13</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>全部播放</string>
+      </property>
+      <property name="icon">
+       <iconset resource="images.qrc">
+        <normaloff>:/playWidget/images/playWidget/play.png</normaloff>:/playWidget/images/playWidget/play.png</iconset>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pb_loadDown">
+      <property name="geometry">
+       <rect>
+        <x>570</x>
+        <y>250</y>
+        <width>121</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>楷体</family>
+        <pointsize>13</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>下载</string>
+      </property>
+      <property name="icon">
+       <iconset resource="images.qrc">
+        <normaloff>:/listWidget/images/listWidget/btn_download.png</normaloff>:/listWidget/images/listWidget/btn_download.png</iconset>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="geometry">
+       <rect>
+        <x>250</x>
+        <y>300</y>
+        <width>941</width>
+        <height>451</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>楷体</family>
+        <pointsize>13</pointsize>
+       </font>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="song">
+       <attribute name="title">
+        <string>歌曲</string>
+       </attribute>
+       <widget class="QTableWidget" name="table_loveMusic">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>941</width>
+          <height>421</height>
+         </rect>
+        </property>
+        <property name="editTriggers">
+         <set>QAbstractItemView::NoEditTriggers</set>
+        </property>
+        <property name="alternatingRowColors">
+         <bool>true</bool>
+        </property>
+        <property name="selectionBehavior">
+         <enum>QAbstractItemView::SelectRows</enum>
+        </property>
+        <attribute name="horizontalHeaderDefaultSectionSize">
+         <number>180</number>
+        </attribute>
+        <column>
+         <property name="text">
+          <string>歌曲名</string>
+         </property>
+         <property name="font">
+          <font>
+           <family>楷体</family>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>歌手</string>
+         </property>
+         <property name="font">
+          <font>
+           <family>楷体</family>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>专辑</string>
+         </property>
+         <property name="font">
+          <font>
+           <family>楷体</family>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>时长</string>
+         </property>
+         <property name="font">
+          <font>
+           <family>楷体</family>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="font">
+          <font>
+           <family>楷体</family>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+        </column>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="pinglun">
+       <attribute name="title">
+        <string>评论</string>
+       </attribute>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="widget_down" native="true">
+    <property name="geometry">
+     <rect>
+      <x>-10</x>
+      <y>770</y>
+      <width>1281</width>
+      <height>110</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+background-color: rgb(239, 239, 239);</string>
+    </property>
+    <widget class="QPushButton" name="pb_musicPic">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>10</y>
+       <width>111</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="images.qrc">
+       <normaloff>:/music_play/images/music_play/heijiaopian1.png</normaloff>:/music_play/images/music_play/heijiaopian1.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>80</width>
+       <height>80</height>
+      </size>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lb_musicPlayer">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>30</y>
+       <width>271</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>楷体</family>
+      </font>
+     </property>
+     <property name="text">
+      <string>歌名/歌手</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pb_love">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>60</y>
+       <width>41</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="images.qrc">
+       <normaloff>:/Messageform/images/Messageform/like.png</normaloff>:/Messageform/images/Messageform/like.png</iconset>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QSlider" name="horizon_progress">
+     <property name="geometry">
+      <rect>
+       <x>339</x>
+       <y>60</y>
+       <width>601</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lb_curTime">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>60</y>
+       <width>51</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>00:00</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lb_totalTime">
+     <property name="geometry">
+      <rect>
+       <x>950</x>
+       <y>60</y>
+       <width>72</width>
+       <height>15</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>00:00</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lb_sound">
+     <property name="geometry">
+      <rect>
+       <x>1020</x>
+       <y>50</y>
+       <width>31</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="images.qrc">:/playWidget/images/playWidget/muteButton_hover.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QSlider" name="horizon_soundProgress">
+     <property name="geometry">
+      <rect>
+       <x>1050</x>
+       <y>60</y>
+       <width>121</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pb_choseList">
+     <property name="geometry">
+      <rect>
+       <x>1180</x>
+       <y>50</y>
+       <width>44</width>
+       <height>44</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    border-radius: 24px;
+    min-width: 44px;
+    min-height: 44px;
+    background-color: transparent;
+}
+QPushButton:hover {
+    background-color: rgba(0,0,0,0.1);
+}
+QPushButton:pressed {
+    background-color: rgba(0,0,0,0.2);
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="images.qrc">
+       <normaloff>:/playWidget/images/playWidget/playlist.png</normaloff>:/playWidget/images/playWidget/playlist.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>40</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pb_chosePlay">
+     <property name="geometry">
+      <rect>
+       <x>520</x>
+       <y>20</y>
+       <width>31</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="images.qrc">
+       <normaloff>:/playWidget/images/playWidget/playmode_favor_nor.png</normaloff>:/playWidget/images/playWidget/playmode_favor_nor.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>80</width>
+       <height>80</height>
+      </size>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pb_musicLyrics">
+     <property name="geometry">
+      <rect>
+       <x>800</x>
+       <y>10</y>
+       <width>51</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    border-radius: 24px;
+    min-width: 44px;
+    min-height: 44px;
+    background-color: transparent;
+}
+QPushButton:hover {
+    background-color: rgba(0,0,0,0.1);
+}
+QPushButton:pressed {
+    background-color: rgba(0,0,0,0.2);
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="images.qrc">
+       <normaloff>:/playWidget/images/playWidget/songlyric.png</normaloff>:/playWidget/images/playWidget/songlyric.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>100</width>
+       <height>100</height>
+      </size>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QWidget" name="layoutWidget_2">
+     <property name="geometry">
+      <rect>
+       <x>600</x>
+       <y>10</y>
+       <width>206</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QPushButton" name="pb_prevMusic">
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+    border-radius: 24px;
+    min-width: 44px;
+    min-height: 44px;
+    background-color: transparent;
+}
+QPushButton:hover {
+    background-color: rgba(0,0,0,0.1);
+}
+QPushButton:pressed {
+    background-color: rgba(0,0,0,0.2);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="images.qrc">
+          <normaloff>:/playWidget/images/playWidget/last_music_normal.png</normaloff>:/playWidget/images/playWidget/last_music_normal.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>20</width>
+          <height>20</height>
+         </size>
+        </property>
+        <property name="flat">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pb_startMusic">
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+    border-radius: 24px;
+    min-width: 44px;
+    min-height: 44px;
+    background-color: transparent;
+}
+QPushButton:hover {
+    background-color: rgba(0,0,0,0.1);
+}
+QPushButton:pressed {
+    background-color: rgba(0,0,0,0.2);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="images.qrc">
+          <normaloff>:/playWidget/images/playWidget/pause.png</normaloff>:/playWidget/images/playWidget/pause.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>20</width>
+          <height>20</height>
+         </size>
+        </property>
+        <property name="flat">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pb_pauseMusic">
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+    border-radius: 24px;
+    min-width: 44px;
+    min-height: 44px;
+    background-color: transparent;
+}
+QPushButton:hover {
+    background-color: rgba(0,0,0,0.1);
+}
+QPushButton:pressed {
+    background-color: rgba(0,0,0,0.2);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="images.qrc">
+          <normaloff>:/playWidget/images/playWidget/play.png</normaloff>:/playWidget/images/playWidget/play.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>20</width>
+          <height>20</height>
+         </size>
+        </property>
+        <property name="flat">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pb_nextMusic">
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+    border-radius: 24px;
+    min-width: 44px;
+    min-height: 44px;
+    background-color: transparent;
+}
+QPushButton:hover {
+    background-color: rgba(0,0,0,0.1);
+}
+QPushButton:pressed {
+    background-color: rgba(0,0,0,0.2);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="images.qrc">
+          <normaloff>:/playWidget/images/playWidget/next_music_normal.png</normaloff>:/playWidget/images/playWidget/next_music_normal.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>20</width>
+          <height>20</height>
+         </size>
+        </property>
+        <property name="flat">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_2">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QPushButton" name="pb_loveGray">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>40</y>
+       <width>61</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="images.qrc">
+       <normaloff>:/listWidget/images/listWidget/love.png</normaloff>:/listWidget/images/listWidget/love.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>32</width>
+       <height>33</height>
+      </size>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <zorder>pb_musicPic</zorder>
+    <zorder>lb_musicPlayer</zorder>
+    <zorder>pb_love</zorder>
+    <zorder>horizon_progress</zorder>
+    <zorder>lb_curTime</zorder>
+    <zorder>lb_totalTime</zorder>
+    <zorder>lb_sound</zorder>
+    <zorder>horizon_soundProgress</zorder>
+    <zorder>pb_choseList</zorder>
+    <zorder>pb_chosePlay</zorder>
+    <zorder>layoutWidget_2</zorder>
+    <zorder>pb_musicLyrics</zorder>
+    <zorder>pb_loveGray</zorder>
+   </widget>
+   <widget class="QWidget" name="widget_left" native="true">
+    <property name="geometry">
+     <rect>
+      <x>-10</x>
+      <y>100</y>
+      <width>191</width>
+      <height>671</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+background-color: rgb(245, 245, 245);
+</string>
+    </property>
+    <widget class="QPushButton" name="pb_foundMusic">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>30</y>
+       <width>191</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>楷体</family>
+       <pointsize>-1</pointsize>
+      </font>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::RightToLeft</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    background-color: #f5f5f5;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-family: &quot;楷体&quot;;
+    font-size: 22px;
+    color: #333;
+}
+QPushButton:hover {
+    background-color: #ff7e5e;
+    color: white;
+}
+QPushButton:pressed {
+    background-color: #d95b3e;
+    padding-top: 9px;
+    padding-bottom: 7px;
+}</string>
+     </property>
+     <property name="text">
+      <string> 发现音乐       </string>
+     </property>
+     <property name="default">
+      <bool>false</bool>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pb_vidio">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>80</y>
+       <width>191</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>楷体</family>
+       <pointsize>-1</pointsize>
+      </font>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::RightToLeft</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    background-color: #f5f5f5;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-family: &quot;楷体&quot;;
+    font-size: 22px;
+    color: #333;
+}
+QPushButton:hover {
+    background-color: #ff7e5e;
+    color: white;
+}
+QPushButton:pressed {
+    background-color: #d95b3e;
+    padding-top: 9px;
+    padding-bottom: 7px;
+}</string>
+     </property>
+     <property name="text">
+      <string> 视频           </string>
+     </property>
+     <property name="default">
+      <bool>false</bool>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pb_friend">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>130</y>
+       <width>191</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>楷体</family>
+       <pointsize>-1</pointsize>
+      </font>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::RightToLeft</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    background-color: #f5f5f5;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-family: &quot;楷体&quot;;
+    font-size: 22px;
+    color: #333;
+}
+QPushButton:hover {
+    background-color: #ff7e5e;
+    color: white;
+}
+QPushButton:pressed {
+    background-color: #d95b3e;
+    padding-top: 9px;
+    padding-bottom: 7px;
+}</string>
+     </property>
+     <property name="text">
+      <string> 朋友           </string>
+     </property>
+     <property name="default">
+      <bool>false</bool>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pb_privateFM">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>180</y>
+       <width>191</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>楷体</family>
+       <pointsize>-1</pointsize>
+      </font>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::RightToLeft</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    background-color: #f5f5f5;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-family: &quot;楷体&quot;;
+    font-size: 22px;
+    color: #333;
+}
+QPushButton:hover {
+    background-color: #ff7e5e;
+    color: white;
+}
+QPushButton:pressed {
+    background-color: #d95b3e;
+    padding-top: 9px;
+    padding-bottom: 7px;
+}</string>
+     </property>
+     <property name="text">
+      <string> 私人FM         </string>
+     </property>
+     <property name="default">
+      <bool>false</bool>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pb_localMusic">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>494</y>
+       <width>181</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>181</width>
+       <height>51</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <family>楷体</family>
+       <pointsize>-1</pointsize>
+      </font>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    /* 强制图标在左，文字在右 */
+    qproperty-layoutDirection: LeftToRight;
+    /* 可选：调整图标和文字的间距，以及去掉按钮边框 */
+    padding-left: 8px;
+    padding-right: 8px;
+    border: none;
+    text-align: left;
+}
+QPushButton {
+    background-color: #f5f5f5;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-family: &quot;楷体&quot;;
+    font-size: 19px;
+    color: #333;
+}
+QPushButton:hover {
+    background-color: #ff7e5e;
+    color: white;
+}
+QPushButton:pressed {
+    background-color: #d95b3e;
+    padding-top: 9px;
+    padding-bottom: 7px;
+}</string>
+     </property>
+     <property name="text">
+      <string>本地音乐</string>
+     </property>
+     <property name="icon">
+      <iconset resource="images.qrc">
+       <normaloff>:/listWidget/images/listWidget/btn_localmusic.png</normaloff>:/listWidget/images/listWidget/btn_localmusic.png</iconset>
+     </property>
+     <property name="default">
+      <bool>false</bool>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pb_download">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>341</y>
+       <width>181</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>181</width>
+       <height>51</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>181</width>
+       <height>51</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <family>楷体</family>
+       <pointsize>-1</pointsize>
+      </font>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    /* 强制图标在左，文字在右 */
+    qproperty-layoutDirection: LeftToRight;
+    /* 可选：调整图标和文字的间距，以及去掉按钮边框 */
+    padding-left: 8px;
+    padding-right: 8px;
+    border: none;
+    text-align: left;
+}
+QPushButton {
+    background-color: #f5f5f5;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-family: &quot;楷体&quot;;
+    font-size: 19px;
+    color: #333;
+}
+QPushButton:hover {
+    background-color: #ff7e5e;
+    color: white;
+}
+QPushButton:pressed {
+    background-color: #d95b3e;
+    padding-top: 9px;
+    padding-bottom: 7px;
+}</string>
+     </property>
+     <property name="text">
+      <string>下载管理</string>
+     </property>
+     <property name="icon">
+      <iconset resource="images.qrc">
+       <normaloff>:/listWidget/images/listWidget/btn_download.png</normaloff>:/listWidget/images/listWidget/btn_download.png</iconset>
+     </property>
+     <property name="default">
+      <bool>false</bool>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pb_myMusic">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>392</y>
+       <width>181</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>181</width>
+       <height>51</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>181</width>
+       <height>51</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <family>楷体</family>
+       <pointsize>-1</pointsize>
+      </font>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    /* 强制图标在左，文字在右 */
+    qproperty-layoutDirection: LeftToRight;
+    /* 可选：调整图标和文字的间距，以及去掉按钮边框 */
+    padding-left: 8px;
+    padding-right: 8px;
+    border: none;
+    text-align: left;
+}
+QPushButton {
+    background-color: #f5f5f5;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-family: &quot;楷体&quot;;
+    font-size: 19px;
+    color: #333;
+}
+QPushButton:hover {
+    background-color: #ff7e5e;
+    color: white;
+}
+QPushButton:pressed {
+    background-color: #d95b3e;
+    padding-top: 9px;
+    padding-bottom: 7px;
+}</string>
+     </property>
+     <property name="text">
+      <string>我的音乐网盘</string>
+     </property>
+     <property name="icon">
+      <iconset resource="images.qrc">
+       <normaloff>:/listWidget/images/listWidget/btn_cloudmusic.png</normaloff>:/listWidget/images/listWidget/btn_cloudmusic.png</iconset>
+     </property>
+     <property name="default">
+      <bool>false</bool>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pb_mystudio">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>443</y>
+       <width>181</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>181</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>181</width>
+       <height>51</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <family>楷体</family>
+       <pointsize>-1</pointsize>
+      </font>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    /* 强制图标在左，文字在右 */
+    qproperty-layoutDirection: LeftToRight;
+    /* 可选：调整图标和文字的间距，以及去掉按钮边框 */
+    padding-left: 8px;
+    padding-right: 8px;
+    border: none;
+    text-align: left;
+}
+QPushButton {
+    background-color: #f5f5f5;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-family: &quot;楷体&quot;;
+    font-size: 19px;
+    color: #333;
+}
+QPushButton:hover {
+    background-color: #ff7e5e;
+    color: white;
+}
+QPushButton:pressed {
+    background-color: #d95b3e;
+    padding-top: 9px;
+    padding-bottom: 7px;
+}</string>
+     </property>
+     <property name="text">
+      <string>我的电台</string>
+     </property>
+     <property name="icon">
+      <iconset resource="images.qrc">
+       <normaloff>:/listWidget/images/listWidget/btn_mystation.png</normaloff>:/listWidget/images/listWidget/btn_mystation.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>25</width>
+       <height>25</height>
+      </size>
+     </property>
+     <property name="default">
+      <bool>false</bool>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pb_loveMusic">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>290</y>
+       <width>181</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>181</width>
+       <height>51</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>181</width>
+       <height>51</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <family>楷体</family>
+       <pointsize>-1</pointsize>
+      </font>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    /* 强制图标在左，文字在右 */
+    qproperty-layoutDirection: LeftToRight;
+    /* 可选：调整图标和文字的间距，以及去掉按钮边框 */
+    padding-left: 8px;
+    padding-right: 8px;
+    border: none;
+    text-align: left;
+}
+QPushButton {
+    background-color: #f5f5f5;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-family: &quot;楷体&quot;;
+    font-size: 19px;
+    color: #333;
+}
+QPushButton:hover {
+    background-color: #ff7e5e;
+    color: white;
+}
+QPushButton:pressed {
+    background-color: #d95b3e;
+    padding-top: 9px;
+    padding-bottom: 7px;
+}</string>
+     </property>
+     <property name="text">
+      <string>我喜欢的音乐</string>
+     </property>
+     <property name="icon">
+      <iconset resource="images.qrc">
+       <normaloff>:/listWidget/images/listWidget/love.png</normaloff>:/listWidget/images/listWidget/love.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>26</width>
+       <height>26</height>
+      </size>
+     </property>
+     <property name="default">
+      <bool>false</bool>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="widget_top" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1261</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(232, 232, 232);</string>
+    </property>
+    <widget class="QLabel" name="label_53">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>-20</y>
+       <width>161</width>
+       <height>151</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="images.qrc">:/listWidget/images/listWidget/logo.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pb_account">
+     <property name="geometry">
+      <rect>
+       <x>670</x>
+       <y>10</y>
+       <width>81</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+background-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="images.qrc">
+       <normaloff>:/listWidget/images/listWidget/user.jpg</normaloff>:/listWidget/images/listWidget/user.jpg</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>80</width>
+       <height>80</height>
+      </size>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_54">
+     <property name="geometry">
+      <rect>
+       <x>760</x>
+       <y>30</y>
+       <width>131</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>楷体</family>
+       <pointsize>14</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(232, 232, 232);</string>
+     </property>
+     <property name="text">
+      <string>蜡笔小新</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_75">
+     <property name="geometry">
+      <rect>
+       <x>1020</x>
+       <y>20</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="images.qrc">
+       <normaloff>:/Messageform/images/listWidget/set.png</normaloff>:/Messageform/images/listWidget/set.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>30</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_77">
+     <property name="geometry">
+      <rect>
+       <x>1190</x>
+       <y>20</y>
+       <width>51</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="images.qrc">
+       <normaloff>:/listWidget/images/listWidget/close.png</normaloff>:/listWidget/images/listWidget/close.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>50</width>
+       <height>50</height>
+      </size>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_78">
+     <property name="geometry">
+      <rect>
+       <x>1160</x>
+       <y>20</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="images.qrc">
+       <normaloff>:/listWidget/images/listWidget/big.png</normaloff>:/listWidget/images/listWidget/big.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>40</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_79">
+     <property name="geometry">
+      <rect>
+       <x>1130</x>
+       <y>20</y>
+       <width>51</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="images.qrc">
+       <normaloff>:/listWidget/images/listWidget/small.png</normaloff>:/listWidget/images/listWidget/small.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>40</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="le_onlineSearch">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>30</y>
+       <width>281</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>楷体</family>
+       <pointsize>11</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);
+QLineEdit {
+    background-color: rgb(255, 255, 255);
+    padding-left: 30px;   /* 根据图标宽度调整 */
+    background-image: url(:/stackWidget/images/stackWidget/localMusic/icon_search.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_76">
+     <property name="geometry">
+      <rect>
+       <x>950</x>
+       <y>20</y>
+       <width>61</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="images.qrc">
+       <normaloff>:/listWidget/images/listWidget/vip.png</normaloff>:/listWidget/images/listWidget/vip.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>60</width>
+       <height>60</height>
+      </size>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pb_onlineSearch">
+     <property name="geometry">
+      <rect>
+       <x>250</x>
+       <y>30</y>
+       <width>91</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>楷体</family>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>搜索</string>
+     </property>
+     <property name="icon">
+      <iconset resource="images.qrc">
+       <normaloff>:/stackWidget/images/stackWidget/localMusic/icon_search.png</normaloff>:/stackWidget/images/stackWidget/localMusic/icon_search.png</iconset>
+     </property>
+     <property name="flat">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <zorder>le_onlineSearch</zorder>
+    <zorder>label_53</zorder>
+    <zorder>pb_account</zorder>
+    <zorder>label_54</zorder>
+    <zorder>pushButton_75</zorder>
+    <zorder>pushButton_77</zorder>
+    <zorder>pushButton_78</zorder>
+    <zorder>pushButton_79</zorder>
+    <zorder>pushButton_76</zorder>
+    <zorder>pb_onlineSearch</zorder>
+   </widget>
+   <widget class="QWidget" name="widget_list" native="true">
+    <property name="geometry">
+     <rect>
+      <x>785</x>
+      <y>190</y>
+      <width>471</width>
+      <height>571</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QWidget" name="widget" native="true">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(245, 245, 245);</string>
+       </property>
+       <widget class="QPushButton" name="pb_clear">
+        <property name="geometry">
+         <rect>
+          <x>260</x>
+          <y>30</y>
+          <width>60</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>楷体</family>
+          <pointsize>11</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+    background-color: transparent;
+    color: black;
+    border-radius: 15px;
+}
+QPushButton:hover {
+    background-color: #abc;
+    color: white;
+}
+QPushButton:pressed {
+    background-color: #d95b3e;
+}</string>
+        </property>
+        <property name="text">
+         <string>清空</string>
+        </property>
+        <property name="icon">
+         <iconset resource="images.qrc">
+          <normaloff>:/PopWidget/images/PopWidget/playlist/btn_delete.png</normaloff>:/PopWidget/images/PopWidget/playlist/btn_delete.png</iconset>
+        </property>
+        <property name="flat">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="lb_totalSong">
+        <property name="geometry">
+         <rect>
+          <x>131</x>
+          <y>34</y>
+          <width>72</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>楷体</family>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>共有几首</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_2">
+        <property name="geometry">
+         <rect>
+          <x>28</x>
+          <y>34</y>
+          <width>96</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>楷体</family>
+          <pointsize>14</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>播放列表</string>
+        </property>
+       </widget>
+       <widget class="QListWidget" name="lw_playList">
+        <property name="geometry">
+         <rect>
+          <x>-10</x>
+          <y>70</y>
+          <width>451</width>
+          <height>471</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QListWidget {
+	background-color: rgb(245, 245, 245);
+
+    border: none;
+    border-radius: 12px;
+    outline: 0;
+    font-family: &quot;Microsoft YaHei&quot;, &quot;楷体&quot;, &quot;Segoe UI&quot;;
+    font-size: 14px;
+    padding: 8px 0px;
+}
+
+/* 项（Item）默认样式 */
+QListWidget::item {
+    background-color: transparent;
+    color: black;
+    padding: 10px 16px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    margin: 2px 8px;
+    border-radius: 8px;
+}
+
+/* 悬停效果 */
+QListWidget::item:hover {
+    background-color: #3a3e42;
+    color: white;
+    border-left: 4px solid #ff7e5e;
+    padding-left: 12px;
+}
+
+/* 当前选中项（正在播放） */
+QListWidget::item:selected {
+    background-color: qlineargradient(x1:0, y1:0, x2:1, y2:0,
+        stop:0 #ff7e5e, stop:1 #feb47b);
+    color: white;
+    font-weight: bold;
+    border-left: 4px solid #ffd966;
+    padding-left: 12px;
+}
+
+/* 去掉焦点虚线框 */
+QListWidget:focus {
+    outline: none;
+}
+
+/* 滚动条美化（可选） */
+QListWidget::scroll-bar:vertical {
+    background: #1e2124;
+    width: 10px;
+    border-radius: 5px;
+    margin: 2px;
+}
+QListWidget::scroll-bar:handle:vertical {
+    background: #5a5e62;
+    border-radius: 5px;
+    min-height: 30px;
+}
+QListWidget::scroll-bar:handle:vertical:hover {
+    background: #ff7e5e;
+}
+QListWidget::scroll-bar:add-line, QListWidget::scroll-bar:sub-line {
+    height: 0px;
+}</string>
+        </property>
+        <property name="selectionRectVisible">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1262</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="images.qrc"/>
+ </resources>
+ <connections/>
+</ui>
